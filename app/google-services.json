@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "446366224092",
+    "firebase_url": "https://dream-celebration.firebaseio.com",
+    "project_id": "dream-celebration",
+    "storage_bucket": "dream-celebration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446366224092:android:15799e8548d564a6",
+        "android_client_info": {
+          "package_name": "com.p.dreamcelebration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446366224092-18ig101mlg4hcpvkr6ccoo4cresf2ksv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.p.dreamcelebration",
+            "certificate_hash": "c5eba43a600041fbd5f3d7aa74dc723a40a3e7ec"
+          }
+        },
+        {
+          "client_id": "446366224092-v3dpj5ee7c0u5ucrpvlnm5ut8770hhlf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa8t38aW6QZimnqX9REA1e3AKuH7nF0VI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446366224092-v3dpj5ee7c0u5ucrpvlnm5ut8770hhlf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
