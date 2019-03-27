@@ -19,8 +19,8 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
-//import com.google.firebase.auth.AuthResult;
-//import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-  //  private FirebaseAuth auth;
+    private FirebaseAuth auth;
     private EditText email,password;
     private Button login,signup,forgot_pass;
 
@@ -50,16 +50,16 @@ public class MainActivity extends AppCompatActivity {
         rel2 = findViewById(R.id.rel_lay_2);
         rel3 = findViewById(R.id.rel_lay_3);
 
-//        FirebaseApp.initializeApp(getApplicationContext());
-//        auth = FirebaseAuth.getInstance();
-/*        if(auth.getCurrentUser() != null)
+       FirebaseApp.initializeApp(getApplicationContext());
+        auth = FirebaseAuth.getInstance();
+        if(auth.getCurrentUser() != null)
         {
 
             startActivity(new Intent(MainActivity.this,Mainpage.class));
             finish();
 
         }
-*/
+
         handler.postDelayed(runnable,2000);
 
 
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 // startActivity(new Intent(MainActivity.this,ForgotReset.class));
-                //resetPassword();
+               // resetPassword();
 
             }
         });
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
- /*               auth.signInWithEmailAndPassword(Eid,pass)
+               auth.signInWithEmailAndPassword(Eid,pass)
                         .addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
 
                             }
                       });
- */             }
+             }
         });
 
     }
